@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CO2_EmissionCalculatorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-05-18T17:08:56" hostname="Pavilion" time="0.01">
+  <properties/>
+  <testcase name="defaultValuesTest" classname="CO2_EmissionCalculatorTest" time="0.01"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
