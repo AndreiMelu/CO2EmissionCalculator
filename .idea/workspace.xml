@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6dc584ce-21da-4497-979c-899acc571373" name="Default Changelist" comment="" />
+    <list default="true" id="6dc584ce-21da-4497-979c-899acc571373" name="Default Changelist" comment="Adding a few more tests">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/CO2_EmissionCalculatorTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/CO2_EmissionCalculatorTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-CO2_EmissionCalculatorTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-CO2_EmissionCalculatorTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CO2_EmissionCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CO2_EmissionCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CO2_EmissionCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CO2_EmissionCalculatorTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,14 +59,7 @@
       <recent name="C:\Users\Andrei\IdeaProjects\GitHub\CO2EmissionCalculator\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CO2_EmissionCalculatorTest.defaultValuesTest">
-    <configuration name="CO2_EmissionCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CO2_EmissionCalculator" />
-      <module name="CO2EmissionCalculator.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Gradle.CO2_EmissionCalculatorTest">
     <configuration name="CO2_EmissionCalculatorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CO2_EmissionCalculatorTest" />
       <module name="CO2EmissionCalculator.test" />
@@ -103,6 +107,26 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="CO2_EmissionCalculatorTest.main" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;CO2_EmissionCalculatorTest.main&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="CO2_EmissionCalculatorTest.simpleTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -125,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.CO2_EmissionCalculatorTest.defaultValuesTest" />
-        <item itemvalue="Gradle.CO2_EmissionCalculatorTest.simpleTests" />
         <item itemvalue="Gradle.CO2_EmissionCalculatorTest" />
+        <item itemvalue="Gradle.CO2_EmissionCalculatorTest.main" />
+        <item itemvalue="Gradle.CO2_EmissionCalculatorTest.simpleTests" />
+        <item itemvalue="Gradle.CO2_EmissionCalculatorTest.defaultValuesTest" />
         <item itemvalue="Application.CO2_EmissionCalculatorTest" />
-        <item itemvalue="Application.CO2_EmissionCalculator" />
       </list>
     </recent_temporary>
   </component>
@@ -156,10 +180,20 @@
       <option name="presentableId" value="Default" />
       <updated>1589818260382</updated>
     </task>
+    <task id="LOCAL-00001" summary="Adding Unit Tests">
+      <created>1589823159371</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589823159371</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="Adding Unit Tests" />
+    <MESSAGE value="Adding a few more tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding a few more tests" />
   </component>
   <component name="WindowStateProjectService">
     <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1589821038019">
@@ -170,26 +204,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1589818587515" />
-    <state x="360" y="7" key="CommitChangelistDialog2" timestamp="1589822319038">
+    <state x="360" y="7" key="CommitChangelistDialog2" timestamp="1589823885413">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="360" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1589822319038" />
-    <state width="1493" height="274" key="GridCell.Tab.0.bottom" timestamp="1589821808230">
+    <state x="360" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1589823885413" />
+    <state width="1493" height="274" key="GridCell.Tab.0.bottom" timestamp="1589823926359">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="274" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589821808230" />
-    <state width="1493" height="274" key="GridCell.Tab.0.center" timestamp="1589821808230">
+    <state width="1493" height="274" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589823926359" />
+    <state width="1493" height="274" key="GridCell.Tab.0.center" timestamp="1589823926359">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="274" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589821808230" />
-    <state width="1493" height="274" key="GridCell.Tab.0.left" timestamp="1589821808229">
+    <state width="1493" height="274" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589823926359" />
+    <state width="1493" height="274" key="GridCell.Tab.0.left" timestamp="1589823926359">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="274" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589821808229" />
-    <state width="1493" height="274" key="GridCell.Tab.0.right" timestamp="1589821808230">
+    <state width="1493" height="274" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589823926359" />
+    <state width="1493" height="274" key="GridCell.Tab.0.right" timestamp="1589823926359">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="274" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589821808230" />
+    <state width="1493" height="274" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589823926359" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1589823166923">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1589823166923" />
     <state x="540" y="116" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1589819610826">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

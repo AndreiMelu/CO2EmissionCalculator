@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="CO2_EmissionCalculatorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-05-18T17:08:56" hostname="Pavilion" time="0.01">
+<testsuite name="CO2_EmissionCalculatorTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-05-18T17:45:27" hostname="Pavilion" time="0.021">
   <properties/>
-  <testcase name="defaultValuesTest" classname="CO2_EmissionCalculatorTest" time="0.01"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="defaultValuesTest" classname="CO2_EmissionCalculatorTest" time="0.011"/>
+  <testcase name="simpleTests" classname="CO2_EmissionCalculatorTest" time="0.001"/>
+  <testcase name="testDistanceDefaultValues" classname="CO2_EmissionCalculatorTest" time="0.001"/>
+  <testcase name="simpleTestsPerCategory" classname="CO2_EmissionCalculatorTest" time="0.008"/>
+  <system-out><![CDATA[
+This trip with bus causes: 27g of CO2-equivalent
+
+This trip with train causes: 6g of CO2-equivalent
+
+This trip with small-petrol-car causes: 154g of CO2-equivalent
+This trip with small-electric-car causes: 50g of CO2-equivalent
+This trip with small-diesel-car causes: 142g of CO2-equivalent
+This trip with small-plugin-hybrid-car causes: 73g of CO2-equivalent
+
+This trip with medium-electric-car causes: 58g of CO2-equivalent
+This trip with medium-diesel-car causes: 171g of CO2-equivalent
+This trip with medium-petrol-car causes: 192g of CO2-equivalent
+This trip with medium-plugin-hybrid-car causes: 110g of CO2-equivalent
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
